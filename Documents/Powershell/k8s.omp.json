@@ -5,29 +5,6 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#14c2dd",
-          "foreground": "#193549",
-          "powerline_symbol": "\ue0b0",
-          "properties": {
-            "style": "folder"
-          },
-          "style": "powerline",
-          "template": " \ue5ff {{ .Path }} ",
-          "type": "path"
-        },
-        {
-          "background": "#a2c4e0",
-          "foreground": "#193549",
-          "powerline_symbol": "\ue0b0",
-          "properties": {
-            "fetch_stash_count": true,
-            "fetch_upstream_icon": true
-          },
-          "style": "powerline",
-          "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{ if gt .StashCount 0 }} \uf692 {{ .StashCount }}{{ end }} ",
-          "type": "git"
-        },
-        {
           "background": "#0077c2",
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
